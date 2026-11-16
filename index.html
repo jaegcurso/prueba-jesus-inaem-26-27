@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas complejas</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      th {
+        background-color: lightgrey;
+      }
+
+      td {
+        text-align: center;
+      }
+
+      .fuente {
+        background-color: lightgrey; /*CAmbiamos el color de fondo*/
+        text-align: center; /*Cambio alineación de texto*/
+        font-style: italic; /*Pongo el texto en cursiva*/
+      }
+      .text-left{
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Tablas complejas</h1>
+    <p>Ejemplo de venta de vehículos</p>
+
+    <table>
+      <caption>
+        Análisis de ventas anuales (en miles de vehículos)
+      </caption>
+      <thead>
+        <tr>
+          <td rowspan="3" class="fuente">Fuente: <br />El País</td>
+          <th colspan="8">AÑOS</th>
+        </tr>
+        <tr>
+          <th colspan="2" class="text-left">2009</th>
+          <th colspan="2">2010</th>
+          <th colspan="2">2011</th>
+          <th colspan="2">2012</th>
+        </tr>
+        <tr>
+          <th class="text-left">1<sup>er</sup> semestre</th>
+          <th>2<sup>o</sup> semestre</th>
+          <th>1<sup>er</sup> semestre</th>
+          <th>2<sup>o</sup> semestre</th>
+          <th>1<sup>er</sup> semestre</th>
+          <th>2<sup>o</sup> semestre</th>
+          <th>1<sup>er</sup> semestre</th>
+          <th>2<sup>o</sup> semestre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="text-left">Opel Vectra</th>
+          <td>45</td>
+          <td>42</td>
+          <td>30</td>
+          <td>25</td>
+          <td>45</td>
+          <td>42</td>
+          <td>30</td>
+          <td>25</td>
+        </tr>
+
+        <tr>
+          <th class="text-left">Honda Civic</th>
+          <td>25</td>
+          <td>31</td>
+          <td>33</td>
+          <td>22</td>
+          <td>25</td>
+          <td>31</td>
+          <td>33</td>
+          <td>22</td>
+        </tr>
+
+        <tr>
+          <th class="text-left">Toyota Prius</th>
+          <td>35</td>
+          <td>36</td>
+          <td>41</td>
+          <td>47</td>
+          <td>35</td>
+          <td>36</td>
+          <td>41</td>
+          <td>47</td>
+        </tr>
+        <tr>
+          <th class="text-left">Ford Focus</th>
+          <td>45</td>
+          <td>42</td>
+          <td>30</td>
+          <td>25</td>
+          <td>45</td>
+          <td>42</td>
+          <td>30</td>
+          <td>25</td>
+        </tr>
+
+        <tr>
+          <th class="text-left">BMW Serie</th>
+          <td>25</td>
+          <td>31</td>
+          <td>33</td>
+          <td>22</td>
+          <td>25</td>
+          <td>31</td>
+          <td>33</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <th class="text-left">Fiat Punto</th>
+          <td>35</td>
+          <td>36</td>
+          <td>41</td>
+          <td>47</td>
+          <td>35</td>
+          <td>36</td>
+          <td>41</td>
+          <td>47</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
