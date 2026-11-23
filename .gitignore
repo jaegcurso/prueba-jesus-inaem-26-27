@@ -1,0 +1,32 @@
+# === PhpStorm / JetBrains IDEs ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === Dependencias de PHP (Composer) ===
+/vendor/
+
+# === Variables de entorno y credenciales ===
+.env
+.env.*
+!.env.example
+
+# === Archivos temporales y logs ===
+*.log
+*.cache
+*.tmp
+*.swp
+
+# === Sistema Operativo (Linux / Ubuntu) ===
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# === Visual Studio Code ===
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
